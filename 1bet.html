@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS 1.6 UZBEK SAYTI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url('https://wallpapercave.com/wp/wp2465924.jpg') no-repeat center center/cover;
+      color: white;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+      animation: fadeInDown 1.2s ease;
+    }
+
+    header h1 {
+      font-size: 3em;
+      animation: slideIn 1.5s ease-in-out;
+      color: #00ffcc;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.3s;
+    }
+
+    nav a:hover {
+      transform: scale(1.1);
+      color: #00ffcc;
+    }
+
+    section {
+      padding: 40px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 20px;
+      border-radius: 12px;
+      backdrop-filter: blur(5px);
+      animation: fadeIn 1.5s ease-in-out;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    section img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #00ffcc;
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+      color: #00ffcc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-top: 30px;
+      font-size: 1.1em;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-50px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes slideIn {
+      from {opacity: 0; transform: translateX(-100px);}
+      to {opacity: 1; transform: translateX(0);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CS 1.6 Olamiga Xush Kelibsiz!</h1>
+    <nav>
+      <a href="skinlarbeti.html">Skinlar</a>
+      <a href="#configs">Configlar</a>
+      <a href="map.jpg">Kartalar</a>
+      <a href="#cheats">Chitlar</a>
+      <a href="#about">Biz haqimizda</a>
+    </nav>
+  </header>
+
+  <section id="skins">
+    <img src="skin.jpg.png " alt="Skinlar" >
+    <div>
+      <h2>Skinlar</h2>
+      <p>Eng zo'r va mashhur skinlar bu yerda!</p>
+    </div>
+  </section>
+
+  <section id="configs">
+    <img src="config.jpg" alt="Configlar">
+    <div>
+      <h2>Configlar</h2>
+      <p>Pro o'yinchilar uchun mos config fayllar to'plami.</p>
+    </div>
+  </section>
+
+  <section id="maps">
+    <img src="map.jpg" alt="Kartalar">
+    <div>
+      <h2>Kartalar</h2>
+      <p>Eng zo'r xaritalar — de_dust2, cs_office va boshqalar.</p>
+    </div>
+  </section>
+
+  <section id="cheats">
+    <img src="cheat.jpg" alt="Chitlar">
+    <div>
+      <h2>Chitlar</h2>
+      <p>Faqat o'rganish maqsadida! Chitlar haqida ma'lumotlar.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Biz haqimizda</h2>
+    <p>Biz CS 1.6 ishqibozlarimiz va bu saytni sizlar uchun tuzdik. Maqsadimiz — barcha kerakli resurslarni bitta joyga jamlash.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 CS 1.6 Sayti. Barcha huquqlar himoyalangan.
+  </footer>
+</body>
+</html>
